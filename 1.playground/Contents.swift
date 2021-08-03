@@ -12,4 +12,7 @@ hello.subscribe { value in
 /// cần cung cấp 1 closure để xử lý các giá trị nhận được từ nguồn phát
 /// sau khi nguồn phát ra "Hello Rx" , nguồn sẽ tiếp tục phát tín hiệu kết thúc "completed"
 
-
+public func example(of description: String, action: () -> Void) {
+  print("\n--- Example of:", description, "---")
+  action()
+}

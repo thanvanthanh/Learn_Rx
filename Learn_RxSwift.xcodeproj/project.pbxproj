@@ -27,6 +27,8 @@
 		0510999726B8E65500DCF51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0510999D26B8E70200DCF51F /* 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0510999F26B8E9FA00DCF51F /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		051099A126B9287200DCF51F /* DisposeBag.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DisposeBag.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		05D1847D26B9411000136E14 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5FF652271BA533E02E1BBCC6 /* Pods-Learn_RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn_RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-Learn_RxSwift/Pods-Learn_RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		73C474A0CA167A16F39B0649 /* Pods-Learn_RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn_RxSwift.release.xcconfig"; path = "Target Support Files/Pods-Learn_RxSwift/Pods-Learn_RxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		9BCE9ED02D42671A0C12A6AE /* Pods_Learn_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learn_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,8 @@
 		0510997D26B8E65200DCF51F = {
 			isa = PBXGroup;
 			children = (
+				05D1847D26B9411000136E14 /* Subjects.playground */,
+				051099A126B9287200DCF51F /* DisposeBag.playground */,
 				0510999F26B8E9FA00DCF51F /* Observables.playground */,
 				0510999D26B8E70200DCF51F /* 1.playground */,
 				0510998826B8E65200DCF51F /* Learn_RxSwift */,
