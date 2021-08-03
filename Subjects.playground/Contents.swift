@@ -3,7 +3,7 @@ import RxSwift
 import RxCocoa
 
 // MARK: Subject hoạt động như vừa là một Observable, vừa là một Observer. Khi một Subject nhận một .next event thì ngay lập tức nó sẽ phát ra các emit cho các subscriber của nó.
-
+//----------------------------------------------------------------------
 // MARK:PublishSubject: Khởi đầu empty và chỉ emit các element mới cho Subscriber của nó.
 
 // MARK:BehaviorSubject: Khởi đầu với một giá trị khởi tạo và sẽ relay lại element cuối cùng của chuỗi cho Subscriber mới.
@@ -18,6 +18,7 @@ let subject = PublishSubject<String>()
 //subject.onNext("Hello ae")
 //let subscroption1 = subject
 //    .subscribe(onNext: { value in
+
 //        print(value)
 //    })
 //subject.onNext("Hello lần nữa")
@@ -38,3 +39,28 @@ let subscriptionTwo = subject
 subject.onNext("3") ///  số "3" được in 2 lần ,  1 lần cho subscriptionOne và 1 lần cho subscriptionTwo
 subscriptionOne.dispose()
 subject.onNext("4") /// số 4  chỉ được in cho subscription 2) , vì subscriptionOne đã được xử lý (dispose)
+
+
+// Behavior Subject
+let subject2 = BehaviorSubject(value: "0")
+ let disposeBag = DisposeBag()
+
+enum MyError : Error {
+    case anError
+}
+subject2.subscribe {
+    print("🔵 " , $0) ///kiểm tra thử việc chúng ta có nhận được giá trị ban đầu khi cấp cho Behavior Subject không
+}.disposed(by: disposeBag)
+
+subject2.onNext("1")
+//
+subject2.subscribe{
+    print("🔴 " , $0) /// subscriber thứ 2 nhận được giá trị 1. Do lúc này 1 là mới nhất.
+}.disposed(by: disposeBag)
+
+///kết thúc subject với 1 .error.
+subject2.onError(MyError.anError)
+subject2.subscribe{
+    print("🟠 " , $0)
+}.disposed(by: disposeBag)
+///2 subscriber trước đó sẽ nhận .error và subscriber mới sẽ nhận được error
