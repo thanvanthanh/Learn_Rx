@@ -7,7 +7,7 @@
 
 import Foundation
 
-public func Example(of description: String, action: () -> Void) {
-    print("\n--- Example of:", description, "---")
-    action()
-}
+//public func Example(of description: String, action: () -> Void) {
+//    print("\n--- Example of:", description, "---")
+//    action()
+//}

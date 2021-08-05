@@ -12,7 +12,17 @@ hello.subscribe { value in
 /// cần cung cấp 1 closure để xử lý các giá trị nhận được từ nguồn phát
 /// sau khi nguồn phát ra "Hello Rx" , nguồn sẽ tiếp tục phát tín hiệu kết thúc "completed"
 
-public func example(of description: String, action: () -> Void) {
-  print("\n--- Example of:", description, "---")
-  action()
+let helloSequence = Observable.just("Hello Rx")
+
+let subscriptions = helloSequence.subscribe { event in
+    print(event)
 }
+
+/* Observable sequences có thể phát ra không hoặc nhiều event trong vòng đời của nó Trong Rxswift một Event như một Enumeration Type (Nôm na là danh sách các trường hợp )có với 3 trạng thái
+ 
+ .next(value: T) — xảy ra khi một hay một tập hợp các giá trị được bổ sung thêm vào Observable sequences, nó sẽ gửi next event cho các subscribers đã đăng ký ở ví dụ trên.
+
+ .error(error: Error) — Nếu gặp phải Error một chuỗi sẽ phát ra sự kiện lỗi , và sẽ kết thúc Observable sequences
+
+ .completed — Nếu một chuỗi kết thúc nó sẽ gửi event hoàn thành gửi đến cho các subscribers
+ */

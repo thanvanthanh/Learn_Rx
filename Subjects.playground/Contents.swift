@@ -66,3 +66,4 @@ subject2.subscribe{
 ///2 subscriber trước đó sẽ nhận .error và subscriber mới sẽ nhận được error
 
 
+

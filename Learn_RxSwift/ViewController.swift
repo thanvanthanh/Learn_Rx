@@ -10,8 +10,8 @@ import RxCocoa
 import RxSwift
 
 struct Product {
-    let imageName : String
-    let title : String
+    let imageName: String
+    let title: String
 }
 
 struct ProductViewModel {
@@ -32,7 +32,7 @@ struct ProductViewModel {
 
 class ViewController: UIViewController {
     
-    private let tableView : UITableView = {
+    private let tableView: UITableView = {
         let table = UITableView()
         table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         return table
@@ -50,19 +50,17 @@ class ViewController: UIViewController {
     }
     func bindTableData() {
         //Bind items to table
-        viewModel.items.bind(to: tableView.rx.items(cellIdentifier: "cell", cellType: UITableViewCell.self)){row , model , cell in
+        viewModel.items.bind(to: tableView.rx.items(cellIdentifier: "cell", cellType: UITableViewCell.self)){row, model, cell in
             cell.textLabel?.text = model.title
             cell.imageView?.image = UIImage(systemName: model.imageName)
         }.disposed(by: bag)
         
-        //bind a modle selected handler
+        // Bind a modle selected handler
         tableView.rx.modelSelected(Product.self).bind { product in
             print(product.title)
         }.disposed(by: bag)
         
-        // fetch items
+        // Fetch items
         viewModel.fetchITems()
     }
-    
 }
-

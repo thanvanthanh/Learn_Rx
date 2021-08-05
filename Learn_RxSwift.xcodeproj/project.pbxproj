@@ -75,7 +75,6 @@
 		0510998826B8E65200DCF51F /* Learn_RxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				058090C826BA29A1007CFE6C /* Model */,
 				058090C526BA28F5007CFE6C /* Helper */,
 				0510998926B8E65200DCF51F /* AppDelegate.swift */,
 				0510998B26B8E65200DCF51F /* SceneDelegate.swift */,
@@ -94,13 +93,6 @@
 				058090C626BA290C007CFE6C /* Helper.swift */,
 			);
 			path = Helper;
-			sourceTree = "<group>";
-		};
-		058090C826BA29A1007CFE6C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		31DFBE8402133E19FF1AC9F6 /* Frameworks */ = {
@@ -132,6 +124,7 @@
 				0510998326B8E65200DCF51F /* Frameworks */,
 				0510998426B8E65200DCF51F /* Resources */,
 				A52BF0BEF9CC14D3E5D42089 /* [CP] Embed Pods Frameworks */,
+				052BF27626BBD0F300B91FDD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -188,6 +181,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		052BF27626BBD0F300B91FDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		A52BF0BEF9CC14D3E5D42089 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
