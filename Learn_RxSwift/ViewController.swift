@@ -16,14 +16,14 @@ struct Product {
 
 struct ProductViewModel {
     var items = PublishSubject<[Product]>()
-
+    
     func fetchITems() {
         let products = [
-        Product(imageName: "house", title: "Home"),
-        Product(imageName: "gear", title: "Settings"),
-        Product(imageName: "person.circle", title: "Profile"),
-        Product(imageName: "airplane", title: "flights"),
-        Product(imageName: "bell", title: "Activity")
+            Product(imageName: "house", title: "Home"),
+            Product(imageName: "gear", title: "Settings"),
+            Product(imageName: "person.circle", title: "Profile"),
+            Product(imageName: "airplane", title: "flights"),
+            Product(imageName: "bell", title: "Activity")
         ]
         items.onNext(products)
         items.onCompleted()
@@ -31,7 +31,7 @@ struct ProductViewModel {
 }
 
 class ViewController: UIViewController {
-
+    
     private let tableView : UITableView = {
         let table = UITableView()
         table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
@@ -63,6 +63,6 @@ class ViewController: UIViewController {
         // fetch items
         viewModel.fetchITems()
     }
-
+    
 }
 
