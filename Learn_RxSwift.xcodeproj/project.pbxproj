@@ -13,6 +13,7 @@
 		0510999126B8E65200DCF51F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0510998F26B8E65200DCF51F /* Main.storyboard */; };
 		0510999326B8E65500DCF51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0510999226B8E65500DCF51F /* Assets.xcassets */; };
 		0510999626B8E65500DCF51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0510999426B8E65500DCF51F /* LaunchScreen.storyboard */; };
+		058090C726BA290C007CFE6C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058090C626BA290C007CFE6C /* Helper.swift */; };
 		B5B4C12728499C2DB7527933 /* Pods_Learn_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCE9ED02D42671A0C12A6AE /* Pods_Learn_RxSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,8 @@
 		0510999D26B8E70200DCF51F /* 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0510999F26B8E9FA00DCF51F /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		051099A126B9287200DCF51F /* DisposeBag.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DisposeBag.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		058090C426BA205C007CFE6C /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		058090C626BA290C007CFE6C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		05D1847D26B9411000136E14 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5FF652271BA533E02E1BBCC6 /* Pods-Learn_RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn_RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-Learn_RxSwift/Pods-Learn_RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		73C474A0CA167A16F39B0649 /* Pods-Learn_RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn_RxSwift.release.xcconfig"; path = "Target Support Files/Pods-Learn_RxSwift/Pods-Learn_RxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		0510997D26B8E65200DCF51F = {
 			isa = PBXGroup;
 			children = (
+				058090C426BA205C007CFE6C /* Test.playground */,
 				05D1847D26B9411000136E14 /* Subjects.playground */,
 				051099A126B9287200DCF51F /* DisposeBag.playground */,
 				0510999F26B8E9FA00DCF51F /* Observables.playground */,
@@ -71,6 +75,8 @@
 		0510998826B8E65200DCF51F /* Learn_RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				058090C826BA29A1007CFE6C /* Model */,
+				058090C526BA28F5007CFE6C /* Helper */,
 				0510998926B8E65200DCF51F /* AppDelegate.swift */,
 				0510998B26B8E65200DCF51F /* SceneDelegate.swift */,
 				0510998D26B8E65200DCF51F /* ViewController.swift */,
@@ -80,6 +86,21 @@
 				0510999726B8E65500DCF51F /* Info.plist */,
 			);
 			path = Learn_RxSwift;
+			sourceTree = "<group>";
+		};
+		058090C526BA28F5007CFE6C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				058090C626BA290C007CFE6C /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		058090C826BA29A1007CFE6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		31DFBE8402133E19FF1AC9F6 /* Frameworks */ = {
@@ -216,6 +237,7 @@
 				0510998E26B8E65200DCF51F /* ViewController.swift in Sources */,
 				0510998A26B8E65200DCF51F /* AppDelegate.swift in Sources */,
 				0510998C26B8E65200DCF51F /* SceneDelegate.swift in Sources */,
+				058090C726BA290C007CFE6C /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@ let android = 2
 let flutter = 3
 
 let observable1 = Observable<Int>.just(iOS)
-/// observablel là kiểu Observable
+/// observable1 là kiểu Observable
 /// <Int> là kiểu dữ liệu output cho Observable
 ///just là toán tử tạo ra 1 Observable sequence với 1 phần tử duy nhất
 
@@ -101,3 +101,5 @@ observabledd
             print("sum = \(sum)")
         }
     )
+
+

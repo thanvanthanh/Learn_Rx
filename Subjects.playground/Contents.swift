@@ -64,3 +64,5 @@ subject2.subscribe{
     print("🟠 " , $0)
 }.disposed(by: disposeBag)
 ///2 subscriber trước đó sẽ nhận .error và subscriber mới sẽ nhận được error
+
+
