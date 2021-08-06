@@ -29,6 +29,7 @@
 		0510999D26B8E70200DCF51F /* 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0510999F26B8E9FA00DCF51F /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		051099A126B9287200DCF51F /* DisposeBag.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DisposeBag.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		053274E326BCC8B50087714A /* Traits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Traits.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		058090C426BA205C007CFE6C /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		058090C626BA290C007CFE6C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		05D1847D26B9411000136E14 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -52,6 +53,7 @@
 		0510997D26B8E65200DCF51F = {
 			isa = PBXGroup;
 			children = (
+				053274E326BCC8B50087714A /* Traits.playground */,
 				058090C426BA205C007CFE6C /* Test.playground */,
 				05D1847D26B9411000136E14 /* Subjects.playground */,
 				051099A126B9287200DCF51F /* DisposeBag.playground */,
@@ -124,7 +126,7 @@
 				0510998326B8E65200DCF51F /* Frameworks */,
 				0510998426B8E65200DCF51F /* Resources */,
 				A52BF0BEF9CC14D3E5D42089 /* [CP] Embed Pods Frameworks */,
-				052BF27626BBD0F300B91FDD /* ShellScript */,
+				052BF27626BBD0F300B91FDD /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -181,7 +183,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		052BF27626BBD0F300B91FDD /* ShellScript */ = {
+		052BF27626BBD0F300B91FDD /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,6 +192,7 @@
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -404,6 +407,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "vanthanh.Learn-RxSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -424,6 +428,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "vanthanh.Learn-RxSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
