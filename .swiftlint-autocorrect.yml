@@ -1,0 +1,5 @@
+# Only work with these rules
+whitelist_rules:
+  - trailing_whitespace
+  - trailing_newline
+  - vertical_whitespace
