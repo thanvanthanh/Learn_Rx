@@ -31,6 +31,9 @@
 		051099A126B9287200DCF51F /* DisposeBag.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DisposeBag.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		053274E326BCC8B50087714A /* Traits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Traits.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		053274E626BD1CB30087714A /* CreatObservable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CreatObservable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		057E53E526C659CA00B3E19B /* ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaySubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		057E53E626C65B9300B3E19B /* CombiningObservables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombiningObservables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		057E53E726C665FC00B3E19B /* FilteringOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilteringOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		058090C426BA205C007CFE6C /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		058090C626BA290C007CFE6C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		05C8A72826C3A94E0045DF66 /* PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -56,6 +59,9 @@
 		0510997D26B8E65200DCF51F = {
 			isa = PBXGroup;
 			children = (
+				057E53E726C665FC00B3E19B /* FilteringOperators.playground */,
+				057E53E626C65B9300B3E19B /* CombiningObservables.playground */,
+				057E53E526C659CA00B3E19B /* ReplaySubject.playground */,
 				05E914F226C4FA390077BA34 /* BehaviorSubject.playground */,
 				05C8A72826C3A94E0045DF66 /* PublishSubject.playground */,
 				053274E626BD1CB30087714A /* CreatObservable.playground */,
