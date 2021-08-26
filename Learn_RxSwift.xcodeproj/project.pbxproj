@@ -39,6 +39,7 @@
 		058090C626BA290C007CFE6C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		05C8A72826C3A94E0045DF66 /* PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		05D1847D26B9411000136E14 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		05D40A1526D7875B005CC185 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Operators.playground; path = ../Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		05E914F226C4FA390077BA34 /* BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BehaviorSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5FF652271BA533E02E1BBCC6 /* Pods-Learn_RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn_RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-Learn_RxSwift/Pods-Learn_RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		73C474A0CA167A16F39B0649 /* Pods-Learn_RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn_RxSwift.release.xcconfig"; path = "Target Support Files/Pods-Learn_RxSwift/Pods-Learn_RxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		0510997D26B8E65200DCF51F = {
 			isa = PBXGroup;
 			children = (
+				05D40A1526D7875B005CC185 /* Operators.playground */,
 				051F700326CF5C7F005AB8F3 /* Relay.playground */,
 				057E53E726C665FC00B3E19B /* FilteringOperators.playground */,
 				057E53E626C65B9300B3E19B /* CombiningObservables.playground */,

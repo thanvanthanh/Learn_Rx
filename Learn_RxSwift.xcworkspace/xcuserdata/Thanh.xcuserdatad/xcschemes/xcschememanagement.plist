@@ -44,7 +44,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>7</integer>
 		</dict>
 		<key>CreatObservable (Playground) 1.xcscheme</key>
 		<dict>
@@ -158,12 +158,19 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>Operators (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>PublishSubject (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Relay (Playground).xcscheme</key>
 		<dict>
@@ -177,7 +184,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>9</integer>
 		</dict>
 		<key>Subjects (Playground) 1.xcscheme</key>
 		<dict>
@@ -205,7 +212,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>8</integer>
 		</dict>
 		<key>Test (Playground) 1.xcscheme</key>
 		<dict>
