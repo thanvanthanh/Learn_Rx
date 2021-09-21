@@ -30,6 +30,7 @@
 		0510999F26B8E9FA00DCF51F /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		051099A126B9287200DCF51F /* DisposeBag.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DisposeBag.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		051F700326CF5C7F005AB8F3 /* Relay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Relay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0531700626F984560039AC76 /* TransformingOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = TransformingOperators.playground; path = ../TransformingOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		053274E326BCC8B50087714A /* Traits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Traits.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		053274E626BD1CB30087714A /* CreatObservable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CreatObservable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		057E53E526C659CA00B3E19B /* ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaySubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -61,6 +62,7 @@
 		0510997D26B8E65200DCF51F = {
 			isa = PBXGroup;
 			children = (
+				0531700626F984560039AC76 /* TransformingOperators.playground */,
 				05D40A1526D7875B005CC185 /* Operators.playground */,
 				051F700326CF5C7F005AB8F3 /* Relay.playground */,
 				057E53E726C665FC00B3E19B /* FilteringOperators.playground */,
