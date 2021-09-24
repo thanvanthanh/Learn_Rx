@@ -19,8 +19,8 @@ let cuTeo = User(message: BehaviorSubject(value: "Tèo: Cu Tèo chào bạn!"))
 let subject = PublishSubject<User>()
 
 let roomChat = subject
-    .flatMapLatest { $0.message.materialize() }
-    
+    .flatMapLatest { $0.message.materialize() } // Observable<Event<String>> // Observable<String>
+// Event? event.error
 // roomChat
 //    .subscribe(onNext: { msg in
 //        print(msg)
@@ -33,10 +33,10 @@ roomChat
            print("Lỗi phát sinh: \($0.error!)")
            return false
        }
-       
+
        return true
    }
-   .dematerialize()
+    .dematerialize()
    .subscribe(onNext: { msg in
        print(msg)
    })

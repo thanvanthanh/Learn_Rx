@@ -42,6 +42,7 @@
 		058090C426BA205C007CFE6C /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		058090C626BA290C007CFE6C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		05C8A72826C3A94E0045DF66 /* PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		05C8CB5026FDCFB5005C42DD /* TimeBasedOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TimeBasedOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		05D1847D26B9411000136E14 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		05E914F226C4FA390077BA34 /* BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BehaviorSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5FF652271BA533E02E1BBCC6 /* Pods-Learn_RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn_RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-Learn_RxSwift/Pods-Learn_RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		0510997D26B8E65200DCF51F = {
 			isa = PBXGroup;
 			children = (
+				05C8CB5026FDCFB5005C42DD /* TimeBasedOperators.playground */,
 				0531700E26F9CDCB0039AC76 /* TransOperators.playground */,
 				0531700A26F9CAEA0039AC76 /* ObservingEvent.playground */,
 				0531700626F984560039AC76 /* TransformingOperators.playground */,
